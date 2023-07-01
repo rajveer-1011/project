@@ -1,0 +1,175 @@
+*{
+  
+    box-sizing: border-box;
+  }
+
+html,body{
+    height: 100%;
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+
+body{
+    place-items: center;
+    background-color: white;
+    color: black;
+  }
+
+.container {
+    position: relative;
+    margin-top: 15px;
+  }
+
+.dark-mode {
+    background-color: #202124;
+    color: white;
+  }
+
+.display{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-family: 'Kdam Thmor Pro';  }
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.center {
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.4vw;
+    }
+
+.centerc {
+    position: absolute;
+    top: 102%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5vw;
+    }
+
+    .centerd {
+      position: absolute;
+      top: 55%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 1.2vw;
+      }
+
+
+h1{
+    text-align: center;
+}
+
+.animatecloud{
+  width: 350px;
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+  animation: cloud 15s linear infinite;
+}
+@keyframes cloud {
+  0%{
+    left :0;
+    opacity: 100%;
+  }
+  40%{
+    left :50;
+    opacity: 60%;
+  }
+  70%{
+    left :50;
+    opacity: 60%;
+  }
+  100%{
+    left:100%;
+    opacity: 100%;
+  }
+  
+} 
+
+
+.animatestar{
+  width: 350px;
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+  animation: cloud 15s linear infinite;
+}
+@keyframes cloud {
+  0%{
+    left :0;
+    opacity: 100%;
+  }
+  40%{
+    left :50;
+    opacity: 60%;
+  }
+  70%{
+    left :50;
+    opacity: 60%;
+  }
+  100%{
+    left:100%;
+    opacity: 100%;
+  }
+  
+}
+
+
+.dropdown .dropbtn {
+  font-size: inherit;
+  border: none;
+  outline: none;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  color: inherit;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content .aa {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-size: medium;
+}
+
+.dropdown-content .aa:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+.logo{
+  position: absolute;
+  width: 8%;
+  top: 0px;
+  left: 31%;
+
+  text-align: center;
+
+}
